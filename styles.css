@@ -1,0 +1,70 @@
+html {
+    background-color: rosybrown;
+}
+body {
+    background-color: navy;
+    box-shadow: 10px 10px lightblue;
+    margin: 2em;
+    border: 1em;
+}
+header {
+    margin: 6px;
+    padding: 4px;
+    background-color: black;
+    
+    
+}
+main{
+    margin: 6px;
+    padding: 4px;
+}
+footer {
+    margin: 6px;
+    padding: 4px;
+}
+div{
+    margin: 6px;
+    padding: 4px;
+}
+ul {
+    margin: 6px;
+    padding: 4px;
+}
+.footerMenu {
+    color: rebeccapurple;
+    background-color: aquamarine;
+    display: inline;
+    padding: 4px;
+    font-size: 16px;
+    font-family: serif;
+    
+}
+.subscribe {
+    color: white;
+    background-color: darkslategrey;
+    display: inline;
+    padding: 5px 10px;
+}
+.copyright {
+    color: chartreuse;
+    font-family: fantasy;
+}
+.headerMenu {
+    color: chartreuse;
+    background-color: black;
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    
+}
+#footerDivOne {
+    
+}
+a:hover {
+    color: red;
+}
+a:visited {
+    color: hotpink;
+}
+a:link {
+    color: chartreuse;
+}
