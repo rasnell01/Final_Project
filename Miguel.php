@@ -1,14 +1,19 @@
+<?php
+    define("TITLE", "Meet Miguel");
+?>
+
+<!DOCTYPE>
 <html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Meet Miguel</title>
+        <title><?php echo TITLE; ?></title>
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+        <link rel="stylesheet" href="../CSS/styles.css" type="text/css">
         
         <!-- file links -->
         <link href="Index.html">
@@ -22,16 +27,22 @@
     </head>
     <body>
         <header>
-            <h1>Miguel</h1>
             <div>
-                <h3><a href="/finalProject.php">Home</a></h3>
+                <ul>
+                    <li class="headerMenu"><a href="../PHP/home.php">Home</a></li>
+                    <li class="headerMenu"><a href="Josh.php">Meet Josh</a></li>
+                    <li class="headerMenu"><a href="Cody.php">Meet Cody</a></li>
+                    <li class="headerMenu"><a href="Ryan.php">Meet Ryan</a></li>
+                </ul>
             </div>
         </header>
         <main>
             
         </main>
         <footer>
-            
+            <div class="copyright">
+                <h6>Team whateva whateva &copy; 2019.</h6>
+            </div>
         </footer>
     </body>
         <!-- jQuery -->

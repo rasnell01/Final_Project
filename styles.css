@@ -1,5 +1,6 @@
+/* general styles */
 html {
-    background-color: rosybrown;
+    background-color: black;
 }
 body {
     background-color: navy;
@@ -11,8 +12,10 @@ header {
     margin: 6px;
     padding: 4px;
     background-color: black;
-    
-    
+    color: cadetblue;
+}
+h1 {
+    padding-left: 20px;
 }
 main{
     margin: 6px;
@@ -30,20 +33,34 @@ ul {
     margin: 6px;
     padding: 4px;
 }
+
+
+/* finalProject.php styles */
 .footerMenu {
     color: rebeccapurple;
-    background-color: aquamarine;
+    background-color: black;
     display: inline;
     padding: 4px;
     font-size: 16px;
     font-family: serif;
-    
+    border-left: 1px solid rebeccapurple;
+    border-right: 1px solid rebeccapurple;
+}
+.footerMenu:active {
+    color: red;
+}
+.footerMenu:visited; {
+    color: aqua;   
+}
+.footerMenu:link {
+    color: rebeccapurple;
 }
 .subscribe {
     color: white;
-    background-color: darkslategrey;
+    background-color: black;
     display: inline;
     padding: 5px 10px;
+    border-radius: 50%;
 }
 .copyright {
     color: chartreuse;
@@ -54,10 +71,8 @@ ul {
     background-color: black;
     display: inline;
     padding: 0px 10px 0px 10px;
-    
-}
-#footerDivOne {
-    
+    border-left: 3px solid darkred;
+    border-right: 3px solid darkred;
 }
 a:hover {
     color: red;
@@ -67,4 +82,35 @@ a:visited {
 }
 a:link {
     color: chartreuse;
+}
+.mainDiv {
+    background-color: darkred;
+    margin: 2em;
+    padding: 2em;
+    border-radius: 0 25px 25px 25px;
+}
+.mainDivH3 {
+    color: cadetblue;
+    background-color: black;
+    padding: 4px;
+}
+.mainDivP {
+    color:antiquewhite;
+    background-color: darkblue;
+}
+
+/* ryan.php styles */
+#mainRyan {
+    background-color: darkred;
+    color: goldenrod;
+    box-shadow: 20px 20px goldenrod;
+    margin: 2em;
+    padding: 1em;
+    font-family: cursive;
+}
+#h1Ryan {
+    font-size: 72px;
+}
+#mainPRyan {
+    font-size: 18px;
 }

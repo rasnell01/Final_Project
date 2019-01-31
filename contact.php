@@ -1,5 +1,5 @@
 <?php
-    define("TITLE", "Meet Josh");
+    define("TITLE", "Contact US");
 ?>
 
 <!DOCTYPE>
@@ -27,13 +27,9 @@
     </head>
     <body>
         <header>
+            <h1>Contact Us</h1>
             <div>
-                <ul>
-                    <li class="headerMenu"><a href="../PHP/home.php">Home</a></li>
-                    <li class="headerMenu"><a href="Miguel.php">Meet Miguel</a></li>
-                    <li class="headerMenu"><a href="Cody.php">Meet Cody</a></li>
-                    <li class="headerMenu"><a href="Ryan.php">Meet Ryan</a></li>
-                </ul>
+                <h3><a href="../PHP/home.php">Home</a></h3>
             </div>
         </header>
         <main>
